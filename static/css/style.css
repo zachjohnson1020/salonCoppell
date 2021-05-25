@@ -1,0 +1,89 @@
+*{
+	margin: auto;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+.container{
+	width: 1000px;
+	min-height: 1000px;
+	/* border: lightsteelblue 5px solid; */
+}
+
+.header{
+	width: 100%;
+	height: 200px;
+	display: flex;
+}
+
+.logo{
+	width: 500px;
+	height: 200px;
+	display: inline-block;
+	/* border: red 1px solid; */
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
+}
+
+nav{
+	height: 100%;
+}
+
+nav li{
+	font-size: larger;
+	border-radius: 10px;
+}
+
+nav li:hover{
+	background-color: lightsteelblue;
+}
+
+.coppell{
+	text-align: center;
+}
+
+.main{
+	background: url("/static/images/9convert.com - Meet us on Main Street  Final Salon Tour.mp4");
+}
+
+.parallax{
+	background: url("/static/images/front-still.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+	width: 45%;
+	border-radius: 5px;
+	margin-left: 10px;
+	/* border: solid green 2px; */
+}
+.parallaxtwo{
+	background: url("/static/images/front-patio.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+	width: 45%;
+	border-radius: 5px;
+
+	/* border:  solid green 2px; */
+}
+
+p{
+	font-weight: bold;
+	font-size: large;
+	width: 45%;
+
+	/* border: solid blue 2px; */
+}
+
+.smallcontain{
+	display: flex;
+	height: 500px;
+	margin-bottom: 20px;
+	/* border: solid red 2px; */
+	justify-content: space-between;
+}
