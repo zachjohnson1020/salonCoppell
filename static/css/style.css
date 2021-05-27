@@ -1,14 +1,15 @@
 *{
-	margin: auto;
+	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
 }
 
 
 .container{
-	width: 1000px;
+	width: 100%;
 	min-height: 1000px;
-	/* border: lightsteelblue 5px solid; */
+	border: lightsteelblue 5px solid;
+	display: block;
 }
 
 .header{
@@ -28,6 +29,7 @@ img{
 	max-width: 100%;
 	max-height: 100%;
 	border-radius: 5px;
+	
 }
 
 nav{
@@ -47,9 +49,10 @@ nav li:hover{
 	text-align: center;
 }
 
-.main{
-	background: url("/static/images/9convert.com - Meet us on Main Street  Final Salon Tour.mp4");
+#videoBG{
+	z-index: -1;
 }
+
 
 .parallax{
 	background: url("/static/images/front-still.jpg") no-repeat center;
