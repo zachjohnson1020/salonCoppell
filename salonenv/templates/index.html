@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tangerine-Coppell</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<div class="container">
+    <!-- <div class="container"> -->
+    <div class="header">
+        <div class="logo">
+            <img src="/static/images/Tlogo.png" alt="Tangerine Salon">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Services<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Our People<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Locations <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Careers <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <span class="sr-only">(current)</span></a>
+                        <a style="background-color: orangered; border-radius: 10px;" class="nav-link" href="#">Book
+                            Now<span class="sr-only">(current)</span></a>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="main">
+        <video width="50%" id="videoBG" autoplay loop muted controlslist controls nodownload
+            src="/static/images/9convert.com - Meet us on Main Street  Final Salon Tour.mp4">
+        </video>
+
+        <p> <span style="font-weight: bold; font-size: large; color: lightslategray;">Original Location Has A Brand
+                New Home!</span>
+            <br>
+            <br>
+            15 years on Denton Tap Road in Coppell, we have moved to our new location in the heart of Old Town
+            Coppell. Get the hair you love with the latest trends and techniques in Color / Haircutting / Extensions
+            / Balayage and Ombré while luxuriating in our modern farmhouse vibe. Amazing space, amazing people.
+            <br>
+            <br>
+            <a style="font-weight: bold; color: orangered;"
+                href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x864c2eb323bdfa61:0x8ca31a5267e23f64?source=g.page.m.we">
+                W Main Street
+                Coppell, TX 75019</a>
+        </p>
+    </div>
+
+
+
+    <div class="contain">
+        <div class="col fade-in">
+            <img src="/static/images/booths-still.jpg" alt="">
+        </div>
+        <div class="col fade-in">
+            <img src="/static/images/mirror-booth-still.jpg" alt="">
+        </div>
+    </div>
+    <div class="contain">
+        <div class="col fade-in">
+            <img src="/static/images/hair-wash-stations.jpg" alt="">
+        </div>
+        <div class="col fade-in">
+            <img src="/static/images/waiting-room-2.jpg" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="Fleft">
+            <h3 style="color: orangered; font-weight: bold;">Vist Any of Our Five Salon Locations</h3> <br>
+            <a href="https://goo.gl/maps/AiVyCNjUXyk">DALLAS - 7949 Walnut Hill Lane Dallas, TX 75230</a> <br>
+            <a href="https://goo.gl/maps/xAM5VQQVNjx">COPPELL - 723 West Main Street Coppell, TX 75019</a> <br>
+            <a href="https://goo.gl/maps/sixxo9o1i8C2">HV/FLOWER MOUND - 4151 Waller Creek #110, Highland Village TX
+                75077</a> <br>
+            <a href="https://goo.gl/maps/4vG5U96EbnL2">ALLEN - 962 Village Green Dr, Allen TX 75013</a> <br>
+            <a href="https://goo.gl/maps/cMB49vXSkoL2">FRISCO - 3620 The Star Blvd, Frisco TX 75034</a> <br>
+        </div>
+        <div class="Fright">
+            <h3>Subscribe To Our Flash Deals</h3>
+            <p>Sign up to be the first to hear about our deals and offers!</p>
+
+            <form action="">
+                <input type="text" value="" id="">
+                <input style="color: white; background-color: orangered; border-radius: 10px; border: none;"
+                    type="submit" value="SIGN UP">
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- </div> -->
+<script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+</html>
