@@ -6,58 +6,65 @@
 }
 
 
-.container {
-    min-width: 100%;
-    /* border: red solid 2px; */
-}
-
+/* HEADER */
 .header {
-    height: 200px;
-    display: flex;
-}
-
-.logo {
-    height: 100%;
-    display: inline-block;
-    /* border: red 1px solid; */
-}
-
-img {
+    position: fixed;
+    top: 0;
+    z-index: 1  ;
+    background: rgba(0, 0, 0, 0.5);
     width: 100%;
-    height: 100%;
-    border-radius: 2%;
-    padding: .5%;
+    color: white;
 }
 
+
+/* NAV */
 nav {
-    min-height: 100%;
+    max-height: 50%;
+    width: 60%;
 }
+
 
 nav li {
     font-size: larger;
     border-radius: 10px;
+    margin-left: .5rem;
 }
 
 nav li:hover {
-    background-color: #FFCD58;
+    background-color: #E98A15;
 }
+/* NAV */
 
+/* ^^HEADER^^ */
 .coppell {
     text-align: center;
 }
 
-#videoBG {
-    width: 50%;
-	display: flex;
-	padding-right: 1%;
+
+
+
+.vidcont{
+    /* border: slateblue solid 1px; */
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
 }
 
-
-
-
-p {
+.parapic{
+    max-width: 50%;
+    min-height: 100%;
+}
+.parapic img{
+    max-width: 100%;
+}
+.mainP {
     font-weight: bold;
     font-size: large;
+    padding: 1rem;
+    max-width: 50%;
+    min-height: 100%;
+    /* border: solid yellow 1px; */
 }
 
 .main {
@@ -65,51 +72,70 @@ p {
 	justify-content: center;
 	align-items: center;
 	display: flex;
-}
-
-.newhome{
-	border: solid red 2px;
-}
-
-.contain {
-    display: flex;
     min-height: 100%;
-    justify-content: space-between;
-    align-items: center;
-    /* border: solid 2px green; */
+    background-color: white;
+}  
+
+.section2{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+    min-height: 100%;
+    max-width: 100%;
+    background-color: gray;
+    color: white;
+}
+
+.boothp{
+    font-weight: bold;
+    font-size: large;
+    padding: 1rem;
+    max-width: 50%;
+    min-height: 100%;
+}
+
+.boothpic{
+    max-width: 50%;
+    min-height: 100%;
+}
+
+.boothpic img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
 }
 
 
-.fade-in {
-    opacity: 1;
-    transition: opacity 250ms ease-in;
-}
 
-.fade-in.appear {
-    opacity: 1;
-}
+
+
+
+
+
 
 .footer {
-    height: 45vh;
+    margin-top: 1rem;
+    height: 10rem;
     display: flex;
     align-items: center;
+    border: solid red 1px;
 }
 
 .Fleft {
     width: 50%;
-    background-color: white;
     height: 100%;
-    padding-left: 20px;
+    padding: 1rem;
     vertical-align: middle;
     text-align: center;
+    text-decoration: none;
 }
 
 .Fright {
     width: 50%;
-    background-color: lavender;
+
     height: 100%;
     display: block;
     text-align: center;
-    padding-top: 20px;
+    padding: 1rem;
     justify-content: center;
 }
