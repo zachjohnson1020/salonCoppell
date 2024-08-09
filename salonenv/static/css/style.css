@@ -2,32 +2,41 @@
     margin: auto;
     font-family: sans-serif;
     font-size: 16px;
+    color: white;
     /* overflow-x: hidden; */
 }
 
 
-/* HEADER */
-.header {
+
+/* NAV */
+
+nav{
     position: fixed;
     top: 0;
     z-index: 1  ;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul{
+    justify-content: center;
+    display: flex;
+}
+a:link, a:visited, a:hover, a:active, a { 
     color: white;
+    text-decoration: none;
+    list-style-type: none;
 }
-
-
-/* NAV */
-nav {
-    max-height: 50%;
-    width: 60%;
-}
-
 
 nav li {
     font-size: larger;
     border-radius: 10px;
-    margin-left: .5rem;
+    margin-left: .1rem;
+    display: inline;
+    padding: 8px;
 }
 
 nav li:hover {
@@ -43,22 +52,49 @@ nav li:hover {
 
 
 
-.vidcont{
+.home{
     /* border: slateblue solid 1px; */
     display: flex;
     justify-content: center;
     min-width: 100%;
-    min-height: 100%;
+    height: 100vh;
+    background-color: #D9E5D6;
 }
+
+.stations{
+    width: 50%;
+    height: auto;
+    border-radius: 1rem;
+    /* border: red solid 2px; */
+}
+.tangerine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: #F9A03F;
+    border-radius: 1rem;
+    /* border: solid black 2px; */
+}
+
+
 
 .parapic{
     max-width: 50%;
     min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .parapic img{
     max-width: 100%;
+    border-radius: 1rem;
 }
 .mainP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-size: large;
     padding: 1rem;
@@ -72,8 +108,9 @@ nav li:hover {
 	justify-content: center;
 	align-items: center;
 	display: flex;
-    min-height: 100%;
-    background-color: white;
+    height: 100vh;
+    width: 100%;
+    background-color: #D9E5D6;
 }  
 
 .section2{
@@ -82,20 +119,20 @@ nav li:hover {
 	display: flex;
     min-height: 100%;
     max-width: 100%;
-    background-color: gray;
-    color: white;
+    background-color: #D9E5D6;
+    color: black;
 }
 
 .boothp{
     font-weight: bold;
     font-size: large;
     padding: 1rem;
-    max-width: 50%;
+    width: 50%;
     min-height: 100%;
 }
 
 .boothpic{
-    max-width: 50%;
+    width: 50%;
     min-height: 100%;
 }
 
