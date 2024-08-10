@@ -151,11 +151,12 @@ nav li:hover {
 
 
 .footer {
-    margin-top: 1rem;
-    height: 10rem;
     display: flex;
     align-items: center;
-    border: solid red 1px;
+    width: 100%;
+    background-color: #D9E5D6;
+    padding: .5rem;
+
 }
 
 .Fleft {
@@ -165,14 +166,15 @@ nav li:hover {
     vertical-align: middle;
     text-align: center;
     text-decoration: none;
+    background-color: #D9E5D6;
 }
 
 .Fright {
     width: 50%;
-
     height: 100%;
     display: block;
     text-align: center;
     padding: 1rem;
     justify-content: center;
+    background-color: #D9E5D6;
 }
